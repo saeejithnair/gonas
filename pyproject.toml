@@ -1,0 +1,13 @@
+[project]
+name = "gonas"
+version = "0.1.0"
+description = "Generating Optimal Networks through Architecture Search."
+requires-python = "~=3.9"
+authors = [
+    {name = "Saeejith Nair", email = "smnair@uwaterloo.ca"}
+]
+
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["gonas*"]
